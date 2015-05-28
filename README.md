@@ -4,6 +4,12 @@
 
 Script based on `last` program and `awk` script.
 
+## Customizing
+
+Script assumes that the program `which` located in `/bin/which`, you can customize it by setting [variable](https://github.com/ikenfin/uptimes/blob/master/uptimes.sh#L10):
+
+	which=/{YOUR_PATH}/which
+
 ## Example
 
 Calling without arguments
@@ -26,4 +32,3 @@ Calling with `-f or --full` argument
 
 	Started at Wed May 27 2015 22:58:56 To Thu May 28 2015 09:42:33 up 10:43
 	Started at Mon May 25 2015 19:21:32 To Wed May 27 2015 22:54:32 up 2 day, 03:33
-
